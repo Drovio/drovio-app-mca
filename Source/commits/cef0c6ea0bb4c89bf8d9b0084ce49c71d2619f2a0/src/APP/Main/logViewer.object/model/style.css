@@ -1,0 +1,39 @@
+.mapLogViewer {
+	height: 100%;
+}
+.mapLogViewer .lglistContainer {
+	margin: 0px;
+	padding: 0px;
+	background: #FFF;
+	height: 100%;
+}
+.mapLogViewer .lglistContainer .logItem {
+	padding: 5px 8px;
+	width: 100%;
+	border-bottom: 1px solid #CCC;
+	overflow: auto;
+	color: #555;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.mapLogViewer .lglistContainer .logItem.info {
+	background: #FFF;
+}
+.mapLogViewer .lglistContainer .logItem.warning {
+	background:
+}
+.mapLogViewer .lglistContainer .logItem.error {
+	background: rgba(192, 4, 3, 0.6);
+	color: #FFF;
+}
+.mapLogViewer .lglistContainer .logItem .time {
+	float: left;
+	margin-right: 5px;
+}
+.mapLogViewer .lglistContainer .logItem .logContent {
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}

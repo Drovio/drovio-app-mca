@@ -1,0 +1,40 @@
+.mapLogViewer {
+	height: 100%;
+}
+.mapLogViewer .lglist {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	background: #FFF;
+	height: 100%;
+}
+.mapLogViewer .lglist .logItem {
+	padding: 5px 8px;
+	width: 100%;
+	border-bottom: 1px solid #CCC;
+	overflow: auto;
+	color: #555;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.mapLogViewer .lglist .logItem.info {
+	background: #FFF;
+}
+.mapLogViewer .lglist .logItem.warning {
+	background:
+}
+.mapLogViewer .lglist .logItem.error {
+	background: rgba(192, 4, 3, 0.6);
+	color: #FFF;
+}
+.mapLogViewer .lglist .logItem .time {
+	float: left;
+	margin-right: 5px;
+}
+.mapLogViewer .lglist .logItem .logContent {
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
